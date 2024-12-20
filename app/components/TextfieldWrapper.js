@@ -32,6 +32,16 @@ function TextfieldWrapper({ name, ...props }) {
         "& label.Mui-focused": {
           color: "#f3b917",
         },
+        "& .MuiInputBase-input": {
+          padding: "12px 16px", // Adjust padding inside the input
+        },
+        "& .MuiInputLabel-root": {
+          top: "4px", // Adjust placeholder's vertical position
+          left: "8px", // Adjust placeholder's horizontal position
+        },
+        "& .MuiInputLabel-shrink": {
+          transform: "translate(0, -4px) scale(0.75)", // Adjust when focused or filled
+        },
       }}
     />
   );
