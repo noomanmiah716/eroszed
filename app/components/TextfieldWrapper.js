@@ -25,7 +25,7 @@ function TextfieldWrapper({ name, ...props }) {
       className="bg-white rounded"
       InputProps={{
         style: {
-          height: "50px", // Custom height
+          height: "32px", // Custom height
         },
       }}
       sx={{
