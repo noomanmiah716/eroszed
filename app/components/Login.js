@@ -35,7 +35,7 @@ function Login({ login }) {
   };
 
   return (
-    <div className="mt-2 lg:mt-5 container flex flex-col items-center lg:items-start lg:flex-row gap-6 ">
+    <div className="mt-2 lg:mt-5 container flex flex-col-reverse items-center lg:items-start lg:flex-row gap-6 ">
       <div className="flex-1 text-white/90">
         <p className="font-bold text-white">
           The Ultimate Erotic Entertainment
