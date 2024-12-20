@@ -36,7 +36,7 @@ function TextfieldWrapper({ name, ...props }) {
           padding: "12px 16px", // Adjust padding inside the input
         },
         "& .MuiInputLabel-root": {
-          top: "4px", // Adjust placeholder's vertical position
+          top: "1px", // Adjust placeholder's vertical position
           left: "8px", // Adjust placeholder's horizontal position
         },
         "& .MuiInputLabel-shrink": {
