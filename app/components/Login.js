@@ -40,7 +40,7 @@ function Login({ login }) {
         initial={{ scale: 0.5 }}
         animate={{ scale: 0.7 }}
         transition={{ duration: 0.2 }}
-        className="px-2"
+        className="px-5"
       ></motion.div>
       <div className="flex-1 text-white/90">
         <p className="font-bold text-white">
