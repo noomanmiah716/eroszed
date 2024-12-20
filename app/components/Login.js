@@ -36,6 +36,12 @@ function Login({ login }) {
 
   return (
     <div className="mt-2 lg:mt-5 container flex flex-col-reverse items-center lg:items-start lg:flex-row gap-6 ">
+      <motion.div
+        initial={{ scale: 0.5 }}
+        animate={{ scale: 0.7 }}
+        transition={{ duration: 0.2 }}
+        className="px-2"
+      ></motion.div>
       <div className="flex-1 text-white/90">
         <p className="font-bold text-white">
           The Ultimate Erotic Entertainment
@@ -119,13 +125,13 @@ function Login({ login }) {
 
                 <button
                   type="submit"
-                  className="mt-8 w-full font-Arimo bg-transparent hover:bg-custom-yellow border-2 border-custom-amber text-custom-amber py-[6px] rounded uppercase transition-all duration-300"
+                  className="mt-8 w-full font-Arimo bg-transparent hover:bg-custom-yellow border-2 border-custom-amber text-custom-amber py-[4px] rounded uppercase transition-all duration-300"
                 >
                   LOG INTO MY ACCOUNT
                 </button>
                 <button
                   type="button"
-                  className="mt-5 w-full font-Arimo bg-transparent hover:bg-white/40 border-2 border-white text-white py-[6px] rounded uppercase transition-all duration-300"
+                  className="mt-5 w-full font-Arimo bg-transparent hover:bg-white/40 border-2 border-white text-white py-[4px] rounded uppercase transition-all duration-300"
                 >
                   CREATE NEW ACCOUNT
                 </button>
