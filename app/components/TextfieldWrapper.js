@@ -22,7 +22,7 @@ function TextfieldWrapper({ name, ...props }) {
   return (
     <TextField
       {...configTextfield}
-      className="bg-white rounded"
+      className="bg-white rounded h-[32px]"
       sx={{
         "& label.Mui-focused": {
           color: "#f3b917",

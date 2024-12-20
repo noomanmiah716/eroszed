@@ -40,7 +40,7 @@ function Login({ login }) {
         <p className="font-bold text-white">
           The Ultimate Erotic Entertainment
         </p>
-        <p className="mt-[10px] text-sm leading-[21px]">
+        <p className="mt-[10px] text-xs leading-[21px]">
           We have been online since 1997 and are the world’s largest adult
           directory with over 100 locations worldwide.We pride ourselves in
           quality viewers, quality results, customer service and advertiser
@@ -50,7 +50,7 @@ function Login({ login }) {
         <p className="mt-5 font-bold text-white">
           What Types of Ads Do You Offer?
         </p>
-        <p className="mt-[10px] text-sm leading-[21px]">
+        <p className="mt-[10px] text-xs leading-[21px]">
           We offer a wide variety of advertising options. Most advertisers start
           with a standard ad or visiting ad, and then customize their ads with
           such options as VIP upgrades or Premier Services to drive even more
@@ -61,7 +61,7 @@ function Login({ login }) {
         <p className="mt-10 font-bold text-white">
           What Does My Purchase Cover?
         </p>
-        <p className="mt-[10px] text-sm leading-[21px]">
+        <p className="mt-[10px] text-xs leading-[21px]">
           By purchasing an ad on the Eros Guide, you have secured a beautifully
           laid-out advertisement on the premier website for adult entertainment
           services. Since 1997 we have been dedicated to bringing you high
@@ -76,7 +76,7 @@ function Login({ login }) {
         </p>
       </div>
       <div className="lg:bg-black lg:w-[385px] px-6 pt-6 pb-[46px]">
-        <p className="font-medium">Log Into Account</p>
+        <p className="font-bold text-lg text-white">Log Into Account</p>
 
         <div className="mt-10 w-[325px]">
           <Formik
@@ -113,7 +113,7 @@ function Login({ login }) {
                 <div className=" mt-[20px] flex justify-between items-center">
                   <CheckboxField name="remember" label="Remember me" />
                   <p className="text-custom-amber/90 hover:underline cursor-pointer">
-                    Forgot Password
+                    Forgot Password?
                   </p>
                 </div>
 
