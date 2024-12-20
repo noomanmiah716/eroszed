@@ -8,8 +8,8 @@ function TextfieldWrapper({ name, ...props }) {
     ...field,
     ...props,
     fullWidth: true,
-    // variant: "outlined",
-    variant: "filled",
+    variant: "outlined",
+    // variant: "filled",
     color: "warning",
     // helperText: helpertext,
   };
@@ -33,11 +33,11 @@ function TextfieldWrapper({ name, ...props }) {
           color: "#f3b917",
         },
         "& .MuiInputBase-input": {
-          padding: "8px 10px", // Adjust padding inside the input
+          padding: "20px 10px", // Adjust padding inside the input
         },
         "& .MuiInputLabel-root": {
-          top: "3px", // Adjust placeholder's vertical position
-          left: "8px", // Adjust placeholder's horizontal position
+          top: "8px", // Adjust placeholder's vertical position
+          left: "18px", // Adjust placeholder's horizontal position
         },
         "& .MuiInputLabel-shrink": {
           transform: "translate(0, -4px) scale(0.75)", // Adjust when focused or filled
