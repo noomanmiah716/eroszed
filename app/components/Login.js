@@ -125,13 +125,13 @@ function Login({ login }) {
 
                 <button
                   type="submit"
-                  className="mt-8 w-full font-Arimo bg-transparent hover:bg-custom-yellow border-2 border-custom-amber text-custom-amber py-[3px] rounded uppercase transition-all duration-300"
+                  className="mt-8 w-full font-normal font-Arimo bg-transparent hover:bg-custom-yellow border-2 border-custom-amber text-custom-amber py-[3px] rounded uppercase transition-all duration-300"
                 >
                   LOG INTO MY ACCOUNT
                 </button>
                 <button
                   type="button"
-                  className="mt-5 w-full font-Arimo bg-transparent hover:bg-white/40 border-2 border-white text-white py-[3px] rounded uppercase transition-all duration-300"
+                  className="mt-5 w-full font-normal font-Arimo bg-transparent hover:bg-white/40 border-2 border-white text-white py-[3px] rounded uppercase transition-all duration-300"
                 >
                   CREATE NEW ACCOUNT
                 </button>

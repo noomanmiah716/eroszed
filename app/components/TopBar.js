@@ -7,8 +7,11 @@ function TopBar() {
   return (
     <div className="sticky top-0 z-10 w-full bg-black">
       <div className="container py-[11px] flex lg:justify-between items-center lg:gap-0">
+        <div>
+          
+        </div>
         <div className="lg:hidden text-2xl text-slate-200">
-          {/* <MdMenu /> */}
+          <MdMenu />
           {/* <FaBars /> */}
           {/* <GoThreeBars /> */}
         </div>
